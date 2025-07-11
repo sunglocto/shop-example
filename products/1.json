@@ -1,0 +1,11 @@
+{
+ "ID": 1,
+ "ShortName": "Garbage",
+ "LongName": "Trash bag",
+ "Description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas faucibus pharetra. Vivamus posuere semper molestie. Nunc molestie sapien vitae velit pulvinar vulputate. Fusce mi lacus, ullamcorper eu neque non, congue euismod neque. Proin ac pharetra lectus, nec lobortis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin imperdiet fermentum tempor. In vel porttitor nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis scelerisque dui non egestas molestie. Aliquam convallis aliquet sem, sit amet feugiat dui lacinia sit amet.Sed sed mollis sapien, at auctor leo. Aliquam nisl erat, tristique ut nibh et, ornare ultrices quam. Aenean fermentum sed quam et porta. Donec sed felis sit amet dolor fermentum dictum id ut diam. Maecenas ornare ipsum vitae luctus volutpat. Proin ac nisl erat. Ut et egestas tortor, gravida blandit velit. Praesent molestie felis nec mi facilisis tincidunt. Mauris mi felis, fringilla et fermentum sit amet, commodo nec lorem. Proin posuere ligula erat, vitae posuere est convallis et. Aenean tempus velit id commodo sagittis. Phasellus et sem facilisis justo faucibus hendrerit. Sed vel erat eget augue ultrices luctus nec ac nisi. Nullam hendrerit, lorem in consequat vestibulum, odio risus pretium ligula, non gravida enim lectus non sem. Integer elit libero, posuere nec efficitur non, venenatis vel lorem. Nulla volutpat lobortis lectus at vestibulum.Duis sollicitudin, enim sed malesuada congue, nisi eros porta nisl, at tincidunt metus eros eget tortor. Mauris ornare lorem neque, eu commodo velit gravida nec. Integer sit amet enim a turpis porta malesuada. Phasellus sit amet turpis sollicitudin, sodales dolor vel, congue magna. Quisque neque purus, feugiat ornare lacinia at, tincidunt in eros. Nullam aliquet imperdiet arcu dignissim condimentum. Nunc egestas fermentum dictum. ",
+ "Rating": 0,
+ "Image": "/img/trash.png",
+ "Stripe": "https://stripe-link-here",
+ "Reviews": [],
+ "Price": 2000.0
+}

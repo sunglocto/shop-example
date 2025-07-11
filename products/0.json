@@ -1,0 +1,11 @@
+{
+ "ID": 0,
+ "ShortName": "Vaccum cleaner",
+ "LongName": "Dyson Vaccum Cleaner Sucks A Lot",
+ "Description": "This is a vaccum cleaner that you can use to clean your home! It's build to withstand the biggest stains and difficulties",
+ "Rating": 2.5,
+ "Image": "https://example.com",
+ "Stripe": "https://stripe-link-here",
+ "Reviews": [],
+ "Price": 200000.0
+}

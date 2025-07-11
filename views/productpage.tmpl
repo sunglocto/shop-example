@@ -1,0 +1,19 @@
+{{template "head" .}}
+<body class="bg-sky-100 md:p-35 lg:p-50">
+{{template "header" .}}
+<!-- BEGIN MAIN CONTENT -->
+<main class="rounded lg:p-30 text-[20px] md:text-[15px] text-center bg-sky-200 md:border-2 border-dotted">
+<h1 class='underline font-bold text-[20px] p-4'>{{.ShortName}}</h1>
+<img class="mx-auto md:float-left md:ml-2 object-center size-48" src={{.Image}}>
+<p class="p-8 underline">{{.LongName}}</p>
+<h1 class="text-[20px] font-bold">This costs £{{.Price}}.</h1>
+<a class="bg-green-500 text-white rounded-4x1 p-1 border border-green-700 rounded underline hover:bg-green-300 animate-bounce hover:animate-bounce duration-1000 ease-in-out text-center animate-pulse" href="{{.Stripe}}">Buy with Stripe</a>
+<p>{{.Description}}</p>
+<p class="italic text-[10px] p-8 md:text-[15px]">by purchasing this you agree to selling your firstborn son to the devil for 5 pennies.</p>
+<h2 class="underline">Reviews</h2>
+<!-- TODO: fetch review endpoint w/ htmx -->
+</main>
+<!-- END MAIN CONTENT -->
+{{template "footer" .}}
+</body>
+</html>

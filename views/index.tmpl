@@ -1,0 +1,25 @@
+{{template "head" .}}
+<body class="bg-sky-100 md:p-35 lg:p-50">
+{{template "header" .}}
+<!-- BEGIN MAIN CONTENT -->
+<main class="rounded lg:p-30 text-[20px] md:text-[15px] text-center bg-sky-200 md:border-2 border-dotted">
+<h1 class='underline font-bold text-[20px] p-4'>what is this?</h1>
+<p class="p-2">this is a site that uses <a class="bg-blue-500 text-white rounded-4x1 p-1 border border-blue-700 rounded underline hover:bg-sky-500 animate-bounce duration-1000 ease-in-out" href="https://tailwindcss.com">Tailwind</a> and htmx. ain't it pretty?</p>
+<p>i think this is a good alternative to typical javaslop frameworks or other stuff. it's also extremely fun and easy to program in!</p>
+<p class="p-2">i can't be asked to use the regular net/http and template/html modules so I'm using <a class="bg-blue-500 text-white rounded-4x1 p-1 border border-blue-700 rounded underline hover:bg-sky-500 animate-bounce duration-1000 ease-in-out" href="https://github.com/gin-gonic/gin">Gin</a> instead</p>
+</main>
+
+<h1 class='text-center underline font-bold text-[20px] p-8'>products</h1>
+<div class="flex">
+{{range .products}}
+<div class="m-8 grid duration-500 ease-in-out p-4 lg:text-center  text-black rounded-x1 bg-gray-100">
+<p class="underline text-[20px] ml-4">{{.ShortName}}</p>
+<p class="text-[10px] italic">{{.LongName}}</p>
+<a class="bg-blue-500 text-white rounded-4x1 p-1 m-8 border border-blue-700 rounded underline hover:bg-sky-500 animate-bounce duration-1000 ease-in-out text-center" href="/product/{{.ID}}">BUY NOW</a>
+</div>
+{{end}}
+</div>
+<!-- END MAIN CONTENT -->
+{{template "footer" .}}
+</body>
+</html>
