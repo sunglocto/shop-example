@@ -1,13 +1,6 @@
 # shop-example
 This is a very bad example of an online shop that you can make with [Gin](https://gin-gonic.com) and [Tailwind](https://tailwindcss.com)
-# Clone the project using `git`
-git clone https://github.com/pop-os/cosmic-files
-# Change to the directory that was created by `git`
-cd cosmic-files
-# Build an optimized version using `cargo`, this may take a while
-cargo build --release
-# Run the optimized version using `cargo`
-cargo run --release
+
 This was mostly just a test of Tailwind. I'm not a very good designer, so excuse how terrible the UI looks. Maybe I'll make new stuff with this technology that I had no idea even existed.
 
 To add a product, just follow the syntax of the other 2 products in the file, the attributes are self explanatory. The products will then show up on the root page. If you make a Stripe test account, create the products in Stripe then get payment links and put them in the Stripe attribute of your products. Once you click on the stripe button, it will redirect you to the relevant buy page.
